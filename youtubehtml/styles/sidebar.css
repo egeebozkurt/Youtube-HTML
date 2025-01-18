@@ -1,0 +1,165 @@
+.sidebar-grid
+{
+  margin-top: -88px;
+  width: 235px;
+  position: fixed;
+  margin-left: 10px;
+  overflow: hidden;
+  height: 885px;
+}
+
+.sidebar-grid:hover 
+{
+  overflow: auto; 
+  overflow-x: hidden;
+}
+
+.sidebar-grid 
+{
+  overflow-x: hidden;
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+.sidebar-grid:hover 
+{
+  scrollbar-color: #9c9c9c white; 
+}
+
+.sidebar 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 225px;
+    margin-top: 10px;
+    position: sticky;
+
+}
+
+  .sidebar-button, .sidebargray-button 
+  {
+    height: 40px;
+    display: flex; 
+    align-items: center; 
+    justify-content:baseline; 
+    margin-right: 18px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: white;
+    margin-left: 3px;
+    gap: 10px; 
+  }
+  
+  .sidebar-pp
+  {
+    margin-left: 2px;
+    height: 25px;
+    width: 25px;
+    transform: translateY(1px);
+    border-radius: 50px;
+  }
+
+
+  .sidebargray-button {
+
+    background-color: #F2F2F2;
+  }
+  .sidebar-icon
+  {
+    height: 27px;
+    width: 27px;
+    transform: translateY(1px);
+    border-radius: 50px;
+  }
+
+  .sidebar-explore-icon
+  {
+    border-radius: 50px;  
+    margin-right: -5px;
+    margin-left: -2px;
+  }
+
+  .button-title, .graybutton-title
+  {
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 13px;
+    
+  }
+
+  .graybutton-title 
+  {
+    font-weight: 500;
+  }
+  
+  .usersidebar-title
+  {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 9px;
+    margin-left: 14px;
+    margin-bottom: 8px;
+
+  }
+
+  
+
+  .you-title
+  {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 9px;
+    margin-left: 3px;
+    margin-bottom: 8px;
+
+  }
+
+  .sidebar-line
+  {
+   height: 0.2px;
+   width: 208px;
+   background-color:rgb(224, 224, 224);
+   margin-left: 9px;
+   margin-top: 13px;
+   margin-bottom: 12px;
+  }
+
+
+  
+  .sidebar-button:hover 
+  {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+  }
+
+  .notifications-icon-container:hover, .upload-icon-container:hover
+  {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+  }
+  
+
+  .siz-icon
+  {
+    margin-bottom: -6px;
+  }
+  .dfg-icon
+  {
+    height: 22px;
+    width: 22px;
+    margin-left: 3px;
+    border-radius: 50px;
+  }
+
+  .dfg-title
+  {
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0;
+    margin-left: 13px;
+  }

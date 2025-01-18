@@ -1,0 +1,180 @@
+.all-page
+{
+  position: relative;
+}
+.thumbnail
+{
+width: 393px;
+height: 222px;
+border-radius: 12px;
+} 
+
+
+
+.video-title
+{
+font-size: 16px;
+font-weight: 500;
+line-height: 23px;
+margin-bottom: 6px;
+margin-left: 8px;
+}
+
+
+
+a, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.video-info-grid
+{
+display: grid;
+grid-template-columns: 36px 1fr 1fr;
+margin-top: -6px;
+}
+
+
+
+
+.video-info
+{
+width: 329px;
+margin-left: 3px;
+margin-top: -1px;
+}
+
+.video-link
+{
+  width: 393px;
+  height: 120px;
+}
+
+
+.video-author,
+.video-stats
+{
+width: 200px;
+font-size: 14px;
+color: rgb(96, 96, 96);
+margin-left: 8px;
+}   
+
+.video-author
+{
+margin-bottom: 3px;
+color: inherit; 
+text-decoration: none; 
+color: rgb(96, 96, 96);
+
+}
+
+.channel-picture
+{
+width: 36px;
+height: 36px;
+border-radius: 50px;   
+border: none; 
+}
+
+.profile-picture
+{
+width: 36px;
+border-radius: 50px;
+margin-left: -6px;
+}
+
+.thumbnail-row
+{
+  position: relative;
+margin-bottom: 12px;
+
+}
+
+  .video-grid
+  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-left: 265px;
+  margin-right: 40px;
+  margin-top: 145px;
+  width: 1620px
+  }
+   
+
+.video-preview
+{
+height: 330px;
+width: 393px;
+
+}
+
+.video-menu
+{
+   
+   width: 42px;
+   height: 42px;
+   border-radius: 50px;
+   background-color: white;
+   border: none;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   gap: 3px;
+   margin-top: -8px;
+   margin-left: -6px;
+}
+
+.dot 
+{
+    width: 3px; 
+    height: 3px; 
+    background-color: black; 
+    border-radius: 10px; 
+  }
+
+.video-menu:active
+{
+cursor: pointer;
+background-color: rgb(235, 235, 235);
+}
+
+.video-time-back {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white; 
+  position: absolute; 
+  bottom: 8px; 
+  right: 5px;
+  margin-bottom: 3px;
+  margin-right: 2px;
+}
+
+
+.circle-background {
+  display: inline-block;
+  align-items: center;
+  background-color: #585858;        
+  color: white;                    
+  border-radius: 50%;               
+  width: 13px;                       
+  height: 13px;                     
+  line-height: 13px;                 
+  text-align: center;               
+  font-size: 8px;                    
+  font-weight: bold;                
+  margin-left: 3px;   
+  top: -2.8px;               
+  position: relative;                
+  transform: translateY(0.5px);      
+}
+
+
+
+
