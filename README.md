@@ -1,4 +1,4 @@
-# **YouTube Homepage Clone**
+# **Youtube Homepage Clone**
 This project is a clone of the YouTube homepage, developed using HTML and CSS. It aims to replicate the layout and design of YouTube's main interface.
 
 ## **Features**
